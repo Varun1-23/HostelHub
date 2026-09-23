@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|c:\\users\\lenovo\\source\\repos\\hostelhub\\hostelhub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|solutionrelative:hostelhub.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|c:\\users\\lenovo\\source\\repos\\hostelhub\\hostelhub.api\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|solutionrelative:hostelhub.api\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|c:\\users\\lenovo\\source\\repos\\hostelhub\\hostelhub.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|solutionrelative:hostelhub.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|c:\\users\\lenovo\\source\\repos\\hostelhub\\hostelhub.api\\dtos\\ticketresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|solutionrelative:hostelhub.api\\dtos\\ticketresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|c:\\users\\lenovo\\source\\repos\\hostelhub\\hostelhub.api\\dtos\\createticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|solutionrelative:hostelhub.api\\dtos\\createticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|c:\\users\\lenovo\\source\\repos\\hostelhub\\hostelhub.api\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|solutionrelative:hostelhub.api\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|c:\\users\\lenovo\\source\\repos\\hostelhub\\hostelhub.api\\hostelhub.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|solutionrelative:hostelhub.api\\hostelhub.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|c:\\users\\lenovo\\source\\repos\\hostelhub\\hostelhub.api\\hostelhub.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|solutionrelative:hostelhub.api\\hostelhub.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|c:\\users\\lenovo\\source\\repos\\hostelhub\\hostelhub.api\\hostelhub.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|solutionrelative:hostelhub.api\\hostelhub.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|c:\\users\\lenovo\\source\\repos\\hostelhub\\hostelhub.api\\migrations\\20260919163942_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|solutionrelative:hostelhub.api\\migrations\\20260919163942_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|c:\\users\\lenovo\\source\\repos\\hostelhub\\hostelhub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|solutionrelative:hostelhub.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|c:\\users\\lenovo\\source\\repos\\hostelhub\\hostelhub.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E525DCC-29B3-7B08-B84B-BA3CF06B04D6}|HostelHub.Api\\HostelHub.Api.csproj|solutionrelative:hostelhub.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\DTOs\\TicketResponseDto.cs",
+              "RelativeDocumentMoniker": "HostelHub.Api\\DTOs\\TicketResponseDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\DTOs\\TicketResponseDto.cs",
+              "RelativeToolTip": "HostelHub.Api\\DTOs\\TicketResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T18:39:28.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateTicketDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\DTOs\\CreateTicketDto.cs",
+              "RelativeDocumentMoniker": "HostelHub.Api\\DTOs\\CreateTicketDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\DTOs\\CreateTicketDto.cs",
+              "RelativeToolTip": "HostelHub.Api\\DTOs\\CreateTicketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T18:36:09.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "HostelHub.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "HostelHub.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-19T18:30:03.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HostelHub.Api",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\HostelHub.Api.csproj",
+              "RelativeDocumentMoniker": "HostelHub.Api\\HostelHub.Api.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\HostelHub.Api.csproj",
+              "RelativeToolTip": "HostelHub.Api\\HostelHub.Api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-19T18:29:59.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HostelHub.Api.http",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\HostelHub.Api.http",
+              "RelativeDocumentMoniker": "HostelHub.Api\\HostelHub.Api.http",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\HostelHub.Api.http",
+              "RelativeToolTip": "HostelHub.Api\\HostelHub.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-09-19T18:21:17.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "HostelHub.Api\\Controllers\\TicketsController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "HostelHub.Api\\Controllers\\TicketsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T16:51:14.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260919163942_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\Migrations\\20260919163942_InitialCreate.cs",
+              "RelativeDocumentMoniker": "HostelHub.Api\\Migrations\\20260919163942_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\Migrations\\20260919163942_InitialCreate.cs",
+              "RelativeToolTip": "HostelHub.Api\\Migrations\\20260919163942_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T16:39:42.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\Program.cs",
+              "RelativeDocumentMoniker": "HostelHub.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\Program.cs*",
+              "RelativeToolTip": "HostelHub.Api\\Program.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T16:12:55.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "HostelHub.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\appsettings.json",
+              "RelativeToolTip": "HostelHub.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-19T15:55:34.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "HostelHub.Api\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "HostelHub.Api\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T11:41:17.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "HostelHub.Api\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\Models\\Ticket.cs",
+              "RelativeToolTip": "HostelHub.Api\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T11:20:54.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HostelHub.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\HostelHub.Api.csproj",
+              "RelativeDocumentMoniker": "HostelHub.Api\\HostelHub.Api.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\HostelHub.Api.csproj",
+              "RelativeToolTip": "HostelHub.Api\\HostelHub.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-15T11:13:49.757Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+@HostelHub.Api_HostAddress = http://localhost:7000
+
+### 1. Create a new maintenance ticket
+POST {{HostelHub.Api_HostAddress}}/api/tickets
+Content-Type: application/json
+{
+  "title": "Leaking Pipe",
+  "description": "Bathroom sink in room 204 is leaking",
+  "roomNumber": "204",
+  "status": "Open",
+  "createdAt": "2026-09-19T18:00:00Z"
+}
+
+### 2. Get all tickets
+GET {{HostelHub.Api_HostAddress}}/api/tickets
+
+### 3. Get ticket by ID
+GET {{HostelHub.Api_HostAddress}}/api/tickets/1
