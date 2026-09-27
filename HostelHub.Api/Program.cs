@@ -13,7 +13,7 @@ builder.Services.AddOpenApi();
 // Enable CORS for frontend requests
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", policy =>
+    options.AddPolicy("AllowFrontend", policy =>
     {
         policy.WithOrigins("http://localhost:5173")
               .AllowAnyMethod()
@@ -32,7 +32,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseRouting();
 
-app.UseCors("AllowAll");
+app.UseCors("AllowFrontend");
 
 app.UseAuthorization();
 

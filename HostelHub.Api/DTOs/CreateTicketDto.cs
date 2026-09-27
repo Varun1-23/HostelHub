@@ -13,4 +13,8 @@ public class CreateTicketDto
 
     [Required]
     public string RoomNumber { get; set; } = string.Empty;
+    [Required]
+    public string Priority { get; set; } = string.Empty;
+    [Required]
+    public string Category { get; set; } = string.Empty;
 }

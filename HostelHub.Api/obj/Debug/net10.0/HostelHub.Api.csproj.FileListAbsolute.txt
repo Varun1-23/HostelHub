@@ -166,3 +166,4 @@ C:\Users\Lenovo\source\repos\HostelHub\HostelHub.Api\bin\Debug\net10.0\runtimes\
 C:\Users\Lenovo\source\repos\HostelHub\HostelHub.Api\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
 C:\Users\Lenovo\source\repos\HostelHub\HostelHub.Api\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
 C:\Users\Lenovo\source\repos\HostelHub\HostelHub.Api\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
+C:\Users\Lenovo\source\repos\HostelHub\HostelHub.Api\obj\Debug\net10.0\HostelHub.Api.sourcelink.json

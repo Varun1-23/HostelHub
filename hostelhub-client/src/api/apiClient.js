@@ -8,8 +8,11 @@ const apiClient = axios.create({
 });
 
 export const getTickets = () => apiClient.get('/tickets');
-export const createTicket = (ticketData) => apiClient.post('/tickets', ticketData) ;
-export const updateTicket = (id, ticketData) => apiClient.put(`/tickets/${id}`, ticketData);
+
+export const createTicket = (ticketData) => apiClient.post('/tickets', ticketData);
+
+export const updateTicket = (id, newStatus) => apiClient.patch(`/tickets/${id}/status`, { status: newStatus });
+
 export const deleteTicket = (id) => apiClient.delete(`/tickets/${id}`);
 
 export default apiClient;

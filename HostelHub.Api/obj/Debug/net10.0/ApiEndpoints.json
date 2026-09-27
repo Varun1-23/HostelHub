@@ -28,8 +28,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "ticket",
-        "Type": "HostelHub.Api.Models.Ticket",
+        "Name": "dto",
+        "Type": "HostelHub.Api.DTOs.CreateTicketDto",
         "IsRequired": true
       }
     ],
@@ -73,27 +73,6 @@
   },
   {
     "ContainingType": "HostelHub.Api.Controllers.TicketsController",
-    "Method": "PutTicket",
-    "RelativePath": "api/Tickets/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "ticket",
-        "Type": "HostelHub.Api.Models.Ticket",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HostelHub.Api.Controllers.TicketsController",
     "Method": "DeleteTicket",
     "RelativePath": "api/Tickets/{id}",
     "HttpMethod": "DELETE",
@@ -103,6 +82,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelHub.Api.Controllers.TicketsController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/Tickets/{id}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HostelHub.Api.DTOs.UpdateTicketStatusDto",
         "IsRequired": true
       }
     ],

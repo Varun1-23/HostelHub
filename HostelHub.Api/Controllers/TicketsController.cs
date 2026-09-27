@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using HostelHub.Api.Data;
 using HostelHub.Api.Models;
+using HostelHub.Api.DTOs;
 
 namespace HostelHub.Api.Controllers;
 
@@ -40,36 +41,34 @@ public class TicketsController : ControllerBase
 
     // POST: api/Tickets
     [HttpPost]
-    public async Task<ActionResult<Ticket>> PostTicket(Ticket ticket)
+    public async Task<ActionResult<Ticket>> PostTicket([FromBody] CreateTicketDto dto)
     {
+        var ticket = new Ticket
+        {
+            Title = dto.Title,
+            Description = dto.Description,
+            Priority = dto.Priority,
+            RoomNumber = dto.RoomNumber,
+            Category = dto.Category,
+            CreatedAt = DateTime.UtcNow,
+        };
         _context.Tickets.Add(ticket);
         await _context.SaveChangesAsync();
 
         return CreatedAtAction(nameof(GetTicket), new { id = ticket.Id }, ticket);
     }
 
-    // PUT: api/Tickets/5
-    [HttpPut("{id}")]
-    public async Task<IActionResult> PutTicket(int id, Ticket ticket)
+    // PATCH: api/Tickets/5
+    [HttpPatch("{id}/status")]
+    public async Task<IActionResult> UpdateStatus(int id, [FromBody] UpdateTicketStatusDto dto)
     {
-        if (id != ticket.Id)
+        var ticket = await _context.Tickets.FindAsync(id);
+        if (ticket == null)
         {
-            return BadRequest("Ticket ID mismatch");
+            return NotFound($"Ticket with ID {id} not found.");
         }
-        _context.Entry(ticket).State = EntityState.Modified;
-        try
-        {
-            await _context.SaveChangesAsync();
-        }
-        catch (DbUpdateConcurrencyException)
-        {
-            if (!_context.Tickets.Any(e => e.Id == id))
-            {
-                return NotFound();
-
-            }
-            throw;
-        }
+        ticket.Status = dto.Status;
+        await _context.SaveChangesAsync();
         return NoContent();
     }
 
