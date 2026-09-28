@@ -12,6 +12,10 @@ public class CreateTicketDto
     public string Description { get; set; } = string.Empty;
 
     [Required]
+    [MaxLength(100)]
+    public string HostelName { get; set; } = string.Empty;
+
+    [Required]
     public string RoomNumber { get; set; } = string.Empty;
     [Required]
     public string Priority { get; set; } = string.Empty;

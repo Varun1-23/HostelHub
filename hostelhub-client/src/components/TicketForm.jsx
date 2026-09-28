@@ -1,10 +1,18 @@
 import { useState } from "react";
 import { createTicket } from "../api/apiClient.js";
 
+const HOSTEL_OPTIONS = [
+    "Ganga Hostel",
+    "Kavery Hostel",
+    "Yamuna Hostel",
+    "Godaveri Hostel"
+]
+
 function TicketForm({ onTicketCreated}) {
     const [formData, setFormData] = useState({
         title: '',
         description: '',
+        hostelName: 'Ganga Hostel',
         roomNumber: '',
         category: 'General',
         priority: 'Medium'
@@ -30,7 +38,7 @@ function TicketForm({ onTicketCreated}) {
         try {
             setSubmitting(true);
             await createTicket(formData);
-            setFormData({ title: '', description: '', category: 'General', roomNumber: '', priority: 'Normal'});
+            setFormData({ title: '', description: '', hostelName: 'Ganga Hostel', category: 'General', roomNumber: '', priority: 'Medium'});
             if (onTicketCreated) {
                 await onTicketCreated();
             }
@@ -97,7 +105,20 @@ function TicketForm({ onTicketCreated}) {
                     </select>
                 </div>
 
-
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                    <label className="block text-sm font-medium text-slate-700 mb-1">Hostel Name: </label>
+                    <select 
+                        name="hostelName" 
+                        value={formData.hostelName}
+                        onChange={handleChange}
+                        className="w-full px-3 py-3 text-sm border border-slate-300 rounded-lg bg-white focus:outline-hidden focus :ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                        >
+                            {HOSTEL_OPTIONS.map((hostel) => (
+                                <option key={hostel} value={hostel}>{hostel}</option>
+                            ))}
+                    </select>
+                </div>
                 <div>
                     <label className="block text-sm font-medium text-slate-700 mb-1">Room Number: </label>
                     <input 
@@ -107,11 +128,11 @@ function TicketForm({ onTicketCreated}) {
                     onChange={handleChange}
                     placeholder="eg. A-204"
                     className="w-full px-3 py-2 text-sm border border-slate-300 rounded-lg focus:outline-hidden focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+                    required
                     />
                 </div>
-                </div>  
-
-
+            </div>
+            </div>  
                     <button
                         type="submit"
                         disabled={submitting}

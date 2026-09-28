@@ -20,10 +20,16 @@ public class TicketsController : ControllerBase
 
     // GET: api/Tickets
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Ticket>>> GetTickets()
+    public async Task<ActionResult<IEnumerable<Ticket>>> GetTickets([FromQuery] string? hostelName = null)
     {
-        return await _context.Tickets.ToListAsync();
+        var query = _context.Tickets.AsQueryable();
+        if (!string.IsNullOrWhiteSpace(hostelName))
+        {
+            query = query.Where(t => t.HostelName== hostelName);
+        }
+        return await query.OrderByDescending(t => t.CreatedAt).ToListAsync();
     }
+
 
     // GET: api/Tickets/5
     [HttpGet("{id}")]
@@ -47,6 +53,7 @@ public class TicketsController : ControllerBase
         {
             Title = dto.Title,
             Description = dto.Description,
+            HostelName = dto.HostelName,
             Priority = dto.Priority,
             RoomNumber = dto.RoomNumber,
             Category = dto.Category,
@@ -86,5 +93,21 @@ public class TicketsController : ControllerBase
 
         return NoContent();
     }
+
+    // PATCH: api/tickets/5/remarks
+    [HttpPatch("{id}/remarks")]
+    public async Task<IActionResult> UpdateWardenRemarks(int id, [FromBody] UpdateWardenRemarksDto dto)
+    {
+        var ticket = await _context.Tickets.FindAsync(id);
+        if (ticket == null)
+        {
+            return NotFound($"Ticket with id {id} not found.");
+        }
+        ticket.WardenRemarks = dto.Remarks;
+        await _context.SaveChangesAsync();
+
+        return NoContent();
+    }
 }
+
 
