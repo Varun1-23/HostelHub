@@ -18,6 +18,15 @@
         "tags": [
           "Tickets"
         ],
+        "parameters": [
+          {
+            "name": "hostelName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -213,6 +222,53 @@
           }
         }
       }
+    },
+    "/api/Tickets/{id}/remarks": {
+      "patch": {
+        "tags": [
+          "Tickets"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "pattern": "^-?(?:0|[1-9]\\d*)$",
+              "type": [
+                "integer",
+                "string"
+              ],
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateWardenRemarksDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateWardenRemarksDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateWardenRemarksDto"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -221,6 +277,7 @@
         "required": [
           "title",
           "description",
+          "hostelName",
           "roomNumber",
           "priority",
           "category"
@@ -232,6 +289,10 @@
             "type": "string"
           },
           "description": {
+            "type": "string"
+          },
+          "hostelName": {
+            "maxLength": 100,
             "type": "string"
           },
           "roomNumber": {
@@ -247,7 +308,8 @@
       },
       "Ticket": {
         "required": [
-          "title"
+          "title",
+          "hostelName"
         ],
         "type": "object",
         "properties": {
@@ -266,6 +328,10 @@
           "description": {
             "type": "string"
           },
+          "hostelName": {
+            "maxLength": 100,
+            "type": "string"
+          },
           "category": {
             "type": "string"
           },
@@ -277,6 +343,12 @@
           },
           "roomNumber": {
             "type": "string"
+          },
+          "wardenRemarks": {
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "createdAt": {
             "type": "string",
@@ -291,6 +363,18 @@
         "type": "object",
         "properties": {
           "status": {
+            "type": "string"
+          }
+        }
+      },
+      "UpdateWardenRemarksDto": {
+        "required": [
+          "remarks"
+        ],
+        "type": "object",
+        "properties": {
+          "remarks": {
+            "maxLength": 200,
             "type": "string"
           }
         }

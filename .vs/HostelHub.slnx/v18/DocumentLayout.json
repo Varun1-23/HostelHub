@@ -85,8 +85,7 @@
               "RelativeToolTip": "HostelHub.Api\\DTOs\\UpdateWardenRemarksDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-27T23:35:28.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-27T23:35:28.101Z"
             },
             {
               "$type": "Document",
@@ -98,8 +97,7 @@
               "RelativeToolTip": "HostelHub.Api\\Migrations\\20260927232628_AddHostelNameAndWardenRemarks.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-27T23:26:28.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-27T23:26:28.46Z"
             },
             {
               "$type": "Document",
@@ -111,8 +109,7 @@
               "RelativeToolTip": "HostelHub.Api\\appsettings.Development.json",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-27T23:00:58.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-27T23:00:58.683Z"
             },
             {
               "$type": "Document",
@@ -124,8 +121,7 @@
               "RelativeToolTip": "HostelHub.Api\\DTOs\\UpdateTicketStatusDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-27T00:29:57.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-27T00:29:57.836Z"
             },
             {
               "$type": "Document",
@@ -137,8 +133,7 @@
               "RelativeToolTip": "HostelHub.Api\\DTOs\\TicketResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T18:39:28.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T18:39:28.104Z"
             },
             {
               "$type": "Document",
@@ -150,8 +145,7 @@
               "RelativeToolTip": "HostelHub.Api\\DTOs\\CreateTicketDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T18:36:09.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T18:36:09.367Z"
             },
             {
               "$type": "Document",
@@ -161,7 +155,7 @@
               "RelativeDocumentMoniker": "HostelHub.Api\\Controllers\\TicketsController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\HostelHub\\HostelHub.Api\\Controllers\\TicketsController.cs",
               "RelativeToolTip": "HostelHub.Api\\Controllers\\TicketsController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-19T16:51:14.714Z",
               "EditorCaption": ""
@@ -176,8 +170,7 @@
               "RelativeToolTip": "HostelHub.Api\\Models\\Ticket.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T11:20:54.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-15T11:20:54.328Z"
             },
             {
               "$type": "Document",
@@ -213,8 +206,7 @@
               "RelativeToolTip": "HostelHub.Api\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-19T16:12:55.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-19T16:12:55.194Z"
             },
             {
               "$type": "Document",

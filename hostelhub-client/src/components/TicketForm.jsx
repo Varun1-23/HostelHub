@@ -86,7 +86,7 @@ function TicketForm({ onTicketCreated}) {
                 <div>
                     <label className="block text-sm font-medium text-slate-700 mb-1">Category: </label>
                     <select name="category" value={formData.category} onChange={handleChange} 
-                    className="w-full px-3 py-2 text-sm border border-slate-300 rounded-lg bg-white focus:outline-hidden focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                    className="w-full px-4 py-2.5 text-sm border border-slate-300 rounded-lg bg-white focus:outline-hidden focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 cursor-pointer shadow-xs">
                         <option value="General">General</option>
                         <option value="Plumbing">Plumbing</option>
                         <option value="Electrical">Electrical</option>
@@ -98,11 +98,12 @@ function TicketForm({ onTicketCreated}) {
                 <div>
                     <label className="block text-sm font-medium text-slate-700 mb-1">Priority: </label>
                     <select name="priority" value={formData.priority} onChange={handleChange} 
-                    className="w-full px-3 py-2 text-sm border border-slate-300 rounded-lg bg-white focus:outline-hidden focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                    className="w-full px-4 py-2.5 text-sm border border-slate-300 rounded-lg bg-white focus:outline-hidden focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 cursor-pointer shadow-xs">
                         <option value="Low">Low</option>
                         <option value="Medium">Medium</option>
                         <option value="High">High</option>
                     </select>
+                </div>
                 </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -131,7 +132,6 @@ function TicketForm({ onTicketCreated}) {
                     required
                     />
                 </div>
-            </div>
             </div>  
                     <button
                         type="submit"

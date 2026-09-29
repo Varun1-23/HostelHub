@@ -46,7 +46,7 @@ function HomePage() {
                         tickets={tickets} 
                         loading={loading} 
                         error={error} 
-                        onTicketDeleted={loadTickets}/>  
+                        onTicketUpdated={loadTickets}/>  
                 </section>
                 </main>       
             </div>
