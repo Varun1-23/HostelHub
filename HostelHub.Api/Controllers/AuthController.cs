@@ -61,4 +61,59 @@ public class AuthController : ControllerBase
             RoomNumber = user.RoomNumber
         });
     }
+
+    [HttpPost("login")]
+    public async Task <ActionResult<AuthResponseDto>> Login([FromBody] LoginDto dto)
+    {
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email.ToLower() == dto.Email.ToLower());
+        if (user == null)
+        {
+            return Unauthorized("Invalid email");
+        }
+
+        var isPasswordValid = BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash);
+        if(!isPasswordValid)
+        {
+            return Unauthorized("Invalid Password");
+        }
+
+        var token = CreateJwtToken(user);
+        return Ok(new AuthResponseDto
+        {
+            Token = token,
+            FullName = user.FullName,
+            Email = user.Email,
+            Role = user.Role,
+            HostelName = user.HostelName,
+            RoomNumber = user.RoomNumber
+        });
+    }
+
+    private string CreateJwtToken(User user)
+    {
+        var jwtKey = _config["Jwt:Key"] ?? "DefaultSecretKeyFallbackMustBeAtLeast32Bytes:";
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
+        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+        var claims = new[]
+        {
+            new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+            new Claim(ClaimTypes.Email, user.Email),
+            new Claim(ClaimTypes.Role, user.Role),
+            new Claim("HostelName", user.HostelName)
+        };
+
+        var tokenDescriptor = new SecurityTokenDescriptor
+        {
+            Subject = new ClaimsIdentity(claims),
+            Expires = DateTime.UtcNow.AddDays(7),
+            Issuer = _config["Jwt:Issuer"],
+            Audience = _config["Jwt:Audience"],
+            SigningCredentials = creds
+        };
+
+        var tokenHandler = new JwtSecurityTokenHandler();
+        var token = tokenHandler.CreateToken(tokenDescriptor);
+        return tokenHandler.WriteToken(token);
+    }
 }
